@@ -1,12 +1,10 @@
 import React from 'react'
-import FetchApi from './Pages/FetchApi';
-import DataFetch from './Pages/DataFetch';
+import NewData from './Pages/NewData';
 
 export default function Home() {
   return (
     <div>
-        {/* <FetchApi/> */}
-        <DataFetch/>
+        <NewData/>
     </div>
   )
 }
