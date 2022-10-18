@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .App-logo {
@@ -35,4 +36,180 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cardMainBx{
+  margin-top: 20px;
+}
+.cardData{
+  padding: 10px;
+  text-align: left;
+  height: 120px;
+}
+.cardImg{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+}
+.line-clamp span{
+  font-weight: bold;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin-bottom: 10px !important;
+}
+.content-url{
+  word-break: break-all;
+}
+.DetailBox{
+  margin: 30px auto 100px;
+  width: 800px;
+  text-align: left;
+  box-shadow: 0 0 10px #000000;
+  padding: 20px
+}
+.DetailBox img{
+  width: 100%;
+  height: 300px;
+}
+.DetailDataBox{
+  padding: 30px 5px;
+}
+.DetailDataBox h4{
+  font-weight: bold;
+}
+.DetailContentBox{
+  margin-top: 20px;
+}
+.DetailDescBox{
+  margin: 20px 0;
+}
+.DetailContentBox h6, .DetailDescBox h6{
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.DetailContentBox p, .DetailDescBox p{
+  font-size: 18px;
+  margin: 8px 0;
+}
+.DetailDescBox span{
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.authorBox{
+  display: flex;
+  justify-content: space-between;
+}
+.authorBox h6{
+  font-style: italic;
+  font-weight: bolder;
+}
+.authorBox{
+  padding: 0px 5px 20px;
+}
+
+/* //compiler */
+.inputBox{
+  box-shadow: 0 0 10px #282c34;
+  height: 470px;
+  margin-bottom: 10px;
+}
+.inputBtnBox{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.outputBox{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 15px;
+}
+.modalInput{
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  background-color: #282c34;
+  color: #ffffff;
+}
+.inputBoxfirst{
+  position: relative;
+}
+body .modalInput {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+@media screen and (max-width:576px) {
+  body .modalInput {
+    position: absolute;
+    left:10%;
+    top: 40%;
+  }
+}
+.outputbx .outputtext{
+  text-align: left;
+}
+.outputbx .outputtext p{
+  background-color: #18A2B8;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: system-ui;
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+  padding:5px 20px 7px;
+  border-radius: 3px;
+}
+.userinput{
+  text-align: left;
+}
+.userinput p{
+  background-color: blue;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: system-ui;
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+  padding:5px 20px 7px;
+  border-radius: 3px;
+}
+.runbox{
+  text-align: left;
+}
+.runbox button{
+  border: none;
+  background-color: red;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: system-ui;
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+  padding:5px 30px 7px;
+  border-radius: 3px;
+  margin:20px 20px 20px 0;
+
+}
+.languageBx{
+  display: inline-block;
+} 
+.languageBx p{
+  display: contents;
+  font-size: 22px;
+  font-family: system-ui;
+  font-weight: 600;
+  color: black;
+}
+.areabox{
+  text-align: left;
+}
+.areabox textarea{
+  box-shadow: 0 0 10px #282c34;
+  height: 47vh;
+  max-width: 550px;
 }

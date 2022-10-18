@@ -4,7 +4,7 @@ import NewData from './Pages/NewData';
 export default function Home() {
   return (
     <div>
-        <NewData/>
+      <NewData/>
     </div>
   )
 }
