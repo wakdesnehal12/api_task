@@ -18,7 +18,7 @@ const NewsList = () => {
   }
 
   useEffect(() => {
-    loadData()
+    loadData()  
   }, [])
 
   const handleClick = (item:any) => {
